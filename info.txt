@@ -1,0 +1,13 @@
+1. Redux is a predictable state container for JavaScript apps.
+
+2. The state of your whole application is stored in an object tree within a single Redux store.
+
+3. The only way to change the STATE is to emit an ACTION, an object describing what happend.
+
+4. To specify how the state tree is transformed by actions, you write pure reducers.
+ - The Store and the Reducer are great buddies. Always in sync.
+ - The REDUCER always “talks” to the STORE.
+ - The Reducer is the only mandatory argument passed into createStore()
+
+5. An ACTION must have a type field. This field describes the intent of the action.
+  - Action Creators are simply functions that help you create actions. They are functions that return action objects.
